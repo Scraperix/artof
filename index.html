@@ -10,6 +10,7 @@
   <link rel="shortcut icon" type="image/x-icon" href="/assets/img/favicon.ico">
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/dd.css" />
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/font/stylesheet.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,6 +18,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
+
   <section class="main">
   	<img loading="lazy" src="img/bg-img.png" alt="фон" class="main-bg hidden-mobile">
   	<div class="black"></div>
@@ -50,43 +52,50 @@
 						<a href="/en">EN</a>
 					</div>
 				</div>
-				<!-- <div class="header-burger">
+				<div class="header-burger">
 					<span></span>
 					<span></span>
 					<span></span>
-				</div> -->
+				</div>
 				<div class="links">
-					<img src="img/fb.png" alt="">
-					<img src="img/ig.png" alt="">
+					<a href="#">
+						<img src="img/fb.png" alt="">
+					</a>
+					<a href="#">
+						<img src="img/ig.png" alt="">
+					</a>
+					
 				</div>
 			</div>
 		</div>
-		<div class="nav active">
-			<div class="container">
-				<div class="nav-close hidden-desktop">×</div>
-				<a href="#">Главная</a>
-				<a href="#">Главная</a>
-				<a href="#">Главная</a>
-				<a href="#">Главная</a>
-				<a href="#">Главная</a>
-				<a href="#">Главная</a>
+		<div class="dark-under-mobile-menu"></div>
+		<div class="mobile-menu">
+			<div class="mobile-menu-close">×</div>
+			<div class="mobile-menu-container">
+					<a href="#">Главная</a>
+					<a href="#">Реализованные проекты</a>
+					<a href="#">Этапы</a>
+					<a href="#">Услуги</a>
+					<a href="#">География</a>
+					<a href="#">Отзывы</a>
+					<a href="#">Контакты</a>
 			</div>
 		</div> 		
 		<div class="main-content container">
 		  <div class="main-body">
 		  	<h1>
-		    	НАЙДЁМ СТИЛЬ ВАШЕГО ДОМА В ДУБАИ
+		    	НАЙДЁМ СТИЛЬ ВАШЕГО ДОМА В&nbsp;ДУБАИ
 		  	</h1>
 		  	<p>
-		  		Создаём интерьеры квартир, домов и офисов<br> в Дубаи с подбором мебели и материалов
+		  		Создаём интерьеры квартир, домов и офисов в Дубаи с подбором мебели и материалов
 		  	</p>
 		  </div>
 		  <div class="btns">
 				<a href="#" class="btn btn1">
-	      	<p>Заказать расчёт</p>
+	      	Заказать расчёт
 	    	</a>
 				<a href="#" class="btn btn2">
-	      	<p>Примеры проектов</p>
+	      	Примеры проектов
 	    	</a>
 		  </div>
 		  <div class="btn-descr">
@@ -98,7 +107,6 @@
 		</div>
   </section>
 
-
   <section class="projects">
   	<div class="container">
   		<h2>
@@ -107,7 +115,7 @@
   		</h2>
   		<div class="images">
   			<div class="col-1">
-  				<div class="cont">
+  				<div class="cont" id="projects-item-1">
   					<div class="img img-1">
   						<img src="img/1.png" alt="">
 	  					<div class="descr">
@@ -119,10 +127,27 @@
 	  						</p>
 	  					</div>
   					</div>
+  					<div class="fancy-gal">
+  						<div>
+  							<a data-fslightbox="gallery-1" href="https://i.imgur.com/fsyrScY.jpg">
+									An image
+								</a>
+  						</div>
+  						<div>
+  							<a data-fslightbox="gallery-1" href="https://i.imgur.com/fsyrScY.jpg">
+									An image
+								</a>
+  						</div>
+  						<div>
+  							<a data-fslightbox="gallery-1" href="https://i.imgur.com/fsyrScY.jpg">
+									An image
+								</a>
+  						</div>
+  					</div>	
   				</div>
-  				<div class="cont">
-  					<div class="img img-2">
-  						<img src="img/2.png" alt="">
+  				<div class="cont" id="projects-item-2">
+  					<div class="img img-1">
+  						<img src="img/1.png" alt="">
 	  					<div class="descr">
 	  						<h3>
 	  							Апартаменты
@@ -132,10 +157,27 @@
 	  						</p>
 	  					</div>
   					</div>
+  					<div class="fancy-gal">
+  						<div class="fancy-gal-2-item">
+  							<a data-fslightbox="gallery-2" href="https://i.imgur.com/fsyrScY.jpg">
+									An image
+								</a>
+  						</div>
+  						<div class="fancy-gal-2-item">
+  							<a data-fslightbox="gallery-2" href="https://i.imgur.com/fsyrScY.jpg">
+									An image
+								</a>
+  						</div>
+  						<div class="fancy-gal-2-item">
+  							<a data-fslightbox="gallery-2" href="https://i.imgur.com/fsyrScY.jpg">
+									An image
+								</a>
+  						</div>
+  					</div>	
   				</div>
-  				<div class="cont">
-  					<div class="img img-3">
-  						<img src="img/3.png" alt="">
+  				<div class="cont" id="projects-item-3">
+  					<div class="img img-1">
+  						<img src="img/1.png" alt="">
 	  					<div class="descr">
 	  						<h3>
 	  							Апартаменты
@@ -145,12 +187,29 @@
 	  						</p>
 	  					</div>
   					</div>
+  					<div class="fancy-gal">
+  						<div class="fancy-gal-3-item">
+  							<a data-fslightbox="gallery-3" href="https://i.imgur.com/fsyrScY.jpg">
+									An image
+								</a>
+  						</div>
+  						<div class="fancy-gal-3-item">
+  							<a data-fslightbox="gallery-3" href="https://i.imgur.com/fsyrScY.jpg">
+									An image
+								</a>
+  						</div>
+  						<div class="fancy-gal-3-item">
+  							<a data-fslightbox="gallery-3" href="https://i.imgur.com/fsyrScY.jpg">
+									An image
+								</a>
+  						</div>
+  					</div>	
   				</div>
   			</div>
   			<div class="col-2">
-  				<div class="cont">
-  					<div class="img img-4">
-  						<img src="img/4.png" alt="">
+  				<div class="cont" id="projects-item-4">
+  					<div class="img img-1">
+  						<img src="img/1.png" alt="">
 	  					<div class="descr">
 	  						<h3>
 	  							Апартаменты
@@ -160,10 +219,27 @@
 	  						</p>
 	  					</div>
   					</div>
+  					<div class="fancy-gal">
+  						<div class="fancy-gal-4-item">
+  							<a data-fslightbox="gallery-4" href="https://i.imgur.com/fsyrScY.jpg">
+									An image
+								</a>
+  						</div>
+  						<div class="fancy-gal-4-item">
+  							<a data-fslightbox="gallery-4" href="https://i.imgur.com/fsyrScY.jpg">
+									An image
+								</a>
+  						</div>
+  						<div class="fancy-gal-4-item">
+  							<a data-fslightbox="gallery-4" href="https://i.imgur.com/fsyrScY.jpg">
+									An image
+								</a>
+  						</div>
+  					</div>	
   				</div>
-  				<div class="cont">
-  					<div class="img img-5">
-  						<img src="img/5.png" alt="">
+  				<div class="cont" id="projects-item-5">
+  					<div class="img img-1">
+  						<img src="img/1.png" alt="">
 	  					<div class="descr">
 	  						<h3>
 	  							Апартаменты
@@ -173,10 +249,27 @@
 	  						</p>
 	  					</div>
   					</div>
+  					<div class="fancy-gal">
+  						<div class="fancy-gal-5-item">
+  							<a data-fslightbox="gallery-5" href="https://i.imgur.com/fsyrScY.jpg">
+									An image
+								</a>
+  						</div>
+  						<div class="fancy-gal-5-item">
+  							<a data-fslightbox="gallery-5" href="https://i.imgur.com/fsyrScY.jpg">
+									An image
+								</a>
+  						</div>
+  						<div class="fancy-gal-5-item">
+  							<a data-fslightbox="gallery-5" href="https://i.imgur.com/fsyrScY.jpg">
+									An image
+								</a>
+  						</div>
+  					</div>	
   				</div>
-  				<div class="cont">
-  					<div class="img img-6">
-  						<img src="img/6.png" alt="">
+  				<div class="cont" id="projects-item-6">
+  					<div class="img img-1">
+  						<img src="img/1.png" alt="">
 	  					<div class="descr">
 	  						<h3>
 	  							Апартаменты
@@ -186,41 +279,228 @@
 	  						</p>
 	  					</div>
   					</div>
+  					<div class="fancy-gal">
+  						<div class="fancy-gal-6-item">
+  							<a data-fslightbox="gallery-6" href="https://i.imgur.com/fsyrScY.jpg">
+									An image
+								</a>
+  						</div>
+  						<div class="fancy-gal-6-item">
+  							<a data-fslightbox="gallery-6" href="https://i.imgur.com/fsyrScY.jpg">
+									An image
+								</a>
+  						</div>
+  						<div class="fancy-gal-6-item">
+  							<a data-fslightbox="gallery-6" href="https://i.imgur.com/fsyrScY.jpg">
+									An image
+								</a>
+  						</div>
+  					</div>	
   				</div>
   			</div>
   		</div>
   		<div class="buttons">
   			<a href="#" class="btn btn1">
-	      	<p>онлайн расчёт</p>
+	      	онлайн расчёт
 	    	</a>
 				<a href="#" class="btn btn2">
-	      	<p>смотреть еще</p>
+	      	смотреть еще
 	    	</a>
   		</div>
   	</div>
   </section>
-
 
   <section class="quiz">
   	<div class="container">
-  		<div class="quiz-1">
-  			<img src="img/quiz-bg.png" alt="">
-  			<div class="cont">
-					<div class="title">
-						<h2>
-							Расчитайте стоимость вашего дизайн проекта и реализации
-						</h2>
-						<div class="buttons">
-							<a href="#" class="btn btn1">
-				      	Начать
-				    	</a>
-			  		</div>
-					</div>
-  			</div>	
-  		</div>
+  		<form action="">
+  			<div class="sQwiz__inner-sp"> 
+          <div class="sQwiz__step active begin">
+            <div class="container">
+            	<div class="sQwiz__body">
+					      <div class="quiz-1">
+					  			<div class="img-cont">
+					  				<img src="img/quiz-bg.png" alt="">
+					  			</div>
+					  			
+					  			<div class="cont">
+										<div class="title">
+											<h2>
+												Расчитайте стоимость вашего дизайн проекта и реализации
+											</h2>
+
+												<button class="btn btn1 sQwiz__btn-control sCalc__btn sCalc__btn--next">
+									      	Начать
+									    	</button>
+
+										</div>
+					  			</div>	
+					  		</div>
+              </div>
+            </div>
+         	</div>
+         	<div class="sQwiz__step sQwiz__step-question">
+         		<div class="container">
+            <div class="sQwiz__body">
+              <div class="sQwiz__title">
+               	Какой тип помещения?
+              </div>
+              <div class="row">
+
+                <div class="col-lg-3 col-6"> 
+                  <label class="radio-block"> 
+                    <input type="radio" name="Какой тип помещения" value="Квартира">
+                    <span class="radio-block__img-wrap bg-wrap">
+                    	<img src="img/main-banner-1.png" alt="" class="picture-bg">
+                    </span>
+                    <span class="radio-block__title">
+                    	Квартира
+                    </span>
+                  </label>
+                </div>
+
+                <div class="col-lg-3 col-6"> 
+                  <label class="radio-block"> 
+                    <input type="radio" name="Какой тип помещенияд" value="Вилла">
+                    <span class="radio-block__img-wrap bg-wrap">
+                    	<img src="img/main-banner-1.png" alt="" class="picture-bg">
+                    </span>
+                    <span class="radio-block__title">
+                    	Вилла
+                  	</span>
+                  </label>
+                </div>
+
+                <div class="col-lg-3 col-6"> 
+                  <label class="radio-block"> 
+                    <input type="radio" name="Какой тип помещения" value="Коммерческое помещение">
+                    <span class="radio-block__img-wrap bg-wrap">
+                    	<img src="img/main-banner-1.png" alt="" class="picture-bg">
+                    </span>
+                    <span class="radio-block__title">
+                    	Коммерческое помещение
+                  	</span>
+                  </label>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="sQwiz__head">
+              <div class="btns">
+               	<div class="sQwiz__btn-control sCalc__btn sCalc__btn--prev">
+                  Назад
+                </div>
+                <div class="sQwiz__btn-control sCalc__btn sCalc__btn--next">
+                  Далее
+                </div> 
+             	</div>
+            </div>
+           </div>
+         	</div>
+         	<div class="sQwiz__step sQwiz__step-question">
+         		<div class="container">
+            <div class="sQwiz__body">
+              <div class="sQwiz__title">
+               	Какой cтиль вы хотите?
+              </div>
+              <div class="row">
+
+                <div class="col-lg-3 col-6"> 
+                  <label class="radio-block"> 
+                    <input type="radio" name="Какой cтиль вы хотите" value="Современная классика">
+                    <span class="radio-block__img-wrap bg-wrap">
+                    	<img src="img/main-banner-1.png" alt="" class="picture-bg">
+                    </span>
+                    <span class="radio-block__title">
+                    	Современная классика
+                    </span>
+                  </label>
+                </div>
+
+                <div class="col-lg-3 col-6"> 
+                  <label class="radio-block"> 
+                    <input type="radio" name="Какой cтиль вы хотите" value="Минимализм">
+                    <span class="radio-block__img-wrap bg-wrap">
+                    	<img src="img/main-banner-1.png" alt="" class="picture-bg">
+                    </span>
+                    <span class="radio-block__title">
+                    	Минимализм
+                  	</span>
+                  </label>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="sQwiz__head">
+              <div class="btns">
+               	<div class="sQwiz__btn-control sCalc__btn sCalc__btn--prev">
+                  Назад
+                </div>
+                <div class="sQwiz__btn-control sCalc__btn sCalc__btn--next">
+                  Далее
+                </div> 
+             	</div>
+            </div>
+           </div>
+         	</div>
+         	<div class="sQwiz__step sQwiz__step-question">
+         		<div class="container">
+            <div class="sQwiz__body">
+              <div class="sQwiz__title">
+               	Какая площадь (м<sup>2</sup>)?
+              </div>
+              <div class="row row-range">
+                <div class="value">0</div>
+								<input type="range" min="0" max="300" step="1" value="0">
+              </div>
+            </div>
+            <div class="sQwiz__head">
+              <div class="btns">
+               	<div class="sQwiz__btn-control sCalc__btn sCalc__btn--prev">
+                  Назад
+                </div>
+                <div class="sQwiz__btn-control sCalc__btn sCalc__btn--next">
+                  Далее
+                </div> 
+             	</div>
+            </div>
+           </div>
+         	</div>
+
+          <div class="sQwiz__step sQwiz__step--last">
+          	<div class="container">
+	         		<div class="sQwiz__body">
+		            <div class="sQwiz__title">
+		              Оставьте контакты и<br> получите расчёт
+		            </div>
+		          </div>
+	          </div>
+            <div class="form-wrap">
+               <div class="row-last">
+               	  <div class="col">
+                    <div class="form-wrap__input-wrap form-group">
+                     	<input class="form-wrap__input form-control" name="Имя" type="text" placeholder="Ваше имя" required="required" inputmode="text">
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="form-wrap__input-wrap form-group">
+                     	<input class="form-wrap__input form-control" name="Телефон" type="tel" placeholder="Номер телефона" required="required" pattern="[+][0-9]{1}[(][0-9]{3}[)][0-9]{3}-[0-9]{2}-[0-9]{2}" inputmode="text">
+                    </div>
+                  </div>
+
+                  <div class="col-md-auto">
+                     <button class="btn btn-success" type="submit">Отправить</button>
+                  </div>
+               </div>
+            </div>
+            <div class="resu"></div>
+         </div>
+      	</div>
+  		</form>
+
   	</div>
   </section>
-
 
   <section class="cooperation">
   	<div class="container">
@@ -386,9 +666,7 @@
   		</div>
   		<div class="cont-uslugi">
 				<div class="uslugi-element">
-					<div class="cont-img">
-						<img src="img/uslugi-2.jpg" alt="">
-					</div>
+					
 					<div class="cont-title">
 						<h3>
 							разработка дизайн-проектов
@@ -415,6 +693,9 @@
 						</div>
 						<!-- <span class="srok">Срок: от 2 недель</span> -->
 						<a href="#" class="btn">заказать</a>
+					</div>
+					<div class="cont-img">
+						<img src="img/uslugi-2.jpg" alt="">
 					</div>
 				</div>
   		</div>
@@ -458,50 +739,186 @@
   	</div>
   </section>
 
- 		<section class="testimons">
- 			<div class="container">
-	 			<h2>
-	  			Отзывы:
-	  		</h2>
+	<section class="testimons">
+		<div class="container">
+			<h2>
+  			<span class="text1">Отзывы:</span><br>
+  			<span class="text2"></span>
+  		</h2>
+		  <div class="swiper swiper-testimon">
+		  	<img src="img/phone.png" alt="" class="phone">
+		    <div class="swiper-wrapper">
+		      <div class="swiper-slide">
+		      	
+		      	<img src="img/tes-1.png" alt="" class="root">
+		      </div>
+		      <div class="swiper-slide">
+		      	<img src="img/tes-1.png" alt="">
+		      </div>
+		      <div class="swiper-slide">
+		      	<img src="img/tes-1.png" alt="">
+		      </div>
+		      <div class="swiper-slide">
+		      	<img src="img/tes-1.png" alt="">
+		      </div>
+		    </div>
+		    <div class="swiper-buttons">
+		    	<div class="swiper-button-prev">
+		    		<!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42 42" fill="none">
+						  <circle cx="21" cy="21" r="20.25" transform="matrix(-1 0 0 1 42 0)" stroke="#686868" stroke-width="1.5"/>
+						  <path d="M12.4697 21.5303C12.1768 21.2374 12.1768 20.7626 12.4697 20.4697L17.2426 15.6967C17.5355 15.4038 18.0104 15.4038 18.3033 15.6967C18.5962 15.9896 18.5962 16.4645 18.3033 16.7574L14.0607 21L18.3033 25.2426C18.5962 25.5355 18.5962 26.0104 18.3033 26.3033C18.0104 26.5962 17.5355 26.5962 17.2426 26.3033L12.4697 21.5303ZM29 21.75H13V20.25H29V21.75Z" fill="#686868"/>
+						</svg> -->
+		    	</div>
+    			<div class="swiper-button-next">
+    				<!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42 42" fill="none">
+						  <circle cx="21" cy="21" r="20.25" stroke="#686868" stroke-width="1.5"/>
+						  <path d="M29.5303 21.5303C29.8232 21.2374 29.8232 20.7626 29.5303 20.4697L24.7574 15.6967C24.4645 15.4038 23.9896 15.4038 23.6967 15.6967C23.4038 15.9896 23.4038 16.4645 23.6967 16.7574L27.9393 21L23.6967 25.2426C23.4038 25.5355 23.4038 26.0104 23.6967 26.3033C23.9896 26.5962 24.4645 26.5962 24.7574 26.3033L29.5303 21.5303ZM13 21.75H29V20.25H13V21.75Z" fill="#686868"/>
+						</svg> -->
+    			</div>
+		    </div>
+		    <!-- <div class="swiper-pagination"></div> -->
+		  </div>
+		</div>
+	</section>
 
-			  <div class="swiper swiper-testimon">
-			  	<img src="img/phone.png" alt="" class="phone">
-			    <div class="swiper-wrapper">
-			      <div class="swiper-slide">
-			      	
-			      	<img src="img/tes-1.png" alt="" class="root">
-			      </div>
-			      <div class="swiper-slide">
-			      	<img src="img/tes-1.png" alt="">
-			      </div>
-			      <div class="swiper-slide">
-			      	<img src="img/tes-1.png" alt="">
-			      </div>
-			      <div class="swiper-slide">
-			      	<img src="img/tes-1.png" alt="">
-			      </div>
+	<section class="about-us">
+  	<div class="container">
+  		<h2>
+  			<span class="text1">О нас</span><br>
+  			<span class="text2"></span>
+  		</h2>
+  		<div class="items">
+  			<div class="item">
+  				<img src="img/about-us-1.png" alt="" class="icon">
+  				<p>Повышаем стоимость 
+						вашей недвижимости</p>
+				</div>
+				<div class="item">
+  				<img src="img/about-us-2.png" alt="" class="icon">
+  				<p>Делаем дизайн интерьера вне времени, который будет актуален не 		только сегодня, 
+						но и через 10 лет</p>
+				</div>
+				<div class="item">
+  				<img src="img/about-us-3.png" alt="" class="icon">
+  				<p>Создаем интерьеры не просто красивыми, но и функциональными</p>
+  			</div>
+  			<div class="item">
+  				<img src="img/about-us-4.png" alt="" class="icon">
+  				<p>В отделке используем только качественные материалы.</p>
+  			</div>
+  		</div>
+  	</div>
+  </section>
+
+  <section class="lider-block">
+  		<img src="img/lider-bg.svg" alt="" class="lider-bg">
+  		<div class="items container">
+  			<div class="img">
+  				<img src="img/lider-main.jpg" alt="">
+  			</div>
+  			<div class="text">
+  				<h2>
+  					<span class="subtitle">ЛИДЕР КОМПАНИИ</span>
+  					<br>
+  					<br>
+  					<span class="title">Диана Алферова</span>
+  				</h2>
+  				<div class="descr">
+	  				<p>
+	  					Меня зовут Диана Алферова. Я основатель студии Art of design и архитектор.
+	  				</p>
+	  				<br>
+	  				<ul>
+	  					<li>Мы с командой более 5 лет создаем интерьерный дизайн, сочетая 5 основных факторов: функциональность, актуальность, оптимизацию эргономики пространства, красоту и реализуемость. </li>
+	  					<br>
+	  					<li>Мы делаем проекты, которые можно реализовать, учитывая финансовую сторону. Наша команда берет на себя контроль всех этапов проекта и реализации, чтобы клиент получил удовольствие от воплощения своей мечты в реальность.</li>
+	  					<br>
+	  					<li>Создаём дизайн вне времени.</li>
+	  				</ul>
+  				</div>	
+  			</div>
+  		</div>
+  </section>
+
+  <footer>
+  	<div class="container">
+  		<div class="logo-adress">
+  			<div class="img-logo">
+  				<img src="img/logo.png" alt="">
+  			</div>
+  			<div class="adress">
+  				<a href="#" class="item">
+  					<img src="img/phone-icon.png" alt="">
+  					<span>
+  						+7 (917) 049-03-64
+  					</span>
+  				</a>
+  				<a href="#" class="item">
+  					<img src="img/ig.svg" alt="">
+  					<span>
+  						Instagram
+  					</span>
+  				</a>
+  				<a href="#" class="item">
+  					<img src="img/fb.svg" alt="">
+  					<span>
+  						Facebook
+  					</span>
+  				</a>
+  			</div>
+  		</div>
+  		<form action="">
+  			<h2>
+  				Отправить запрос
+  			</h2>
+  			<div class="footer-inputs">
+  				<select id="demo-htmlselect" name="webmenu" is="ms-dropdown">
+			        <option value="0" selected="selected" data-imagesrc="https://i.imgur.com/XkuTj3B.png"
+			            >Вид консультации</option>
+			        <option value="1" data-imagesrc="https://i.imgur.com/8ScLNnk.png"
+			            >Консультация 1</option>
+			        <option value="2"  data-imagesrc="https://i.imgur.com/aDNdibj.png"
+			            >Консультация 2</option>
+			        <option value="3" data-imagesrc="https://i.imgur.com/kFAk2DX.png"
+			            >Консультация 3</option>
+			    </select>
+	  			<div class="formbuilder-text form-group field-footer-form-name">
+			      <label for="footer-form-name" class="formbuilder-text-label"></label>
+			      <input type="tel" placeholder="Номер телефона" class="footer-form-name" name="footer-form-name" access="false" id="footer-form-name">
 			    </div>
-			    <div class="swiper-buttons">
-			    	<div class="swiper-button-prev">
-			    		<!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42 42" fill="none">
-							  <circle cx="21" cy="21" r="20.25" transform="matrix(-1 0 0 1 42 0)" stroke="#686868" stroke-width="1.5"/>
-							  <path d="M12.4697 21.5303C12.1768 21.2374 12.1768 20.7626 12.4697 20.4697L17.2426 15.6967C17.5355 15.4038 18.0104 15.4038 18.3033 15.6967C18.5962 15.9896 18.5962 16.4645 18.3033 16.7574L14.0607 21L18.3033 25.2426C18.5962 25.5355 18.5962 26.0104 18.3033 26.3033C18.0104 26.5962 17.5355 26.5962 17.2426 26.3033L12.4697 21.5303ZM29 21.75H13V20.25H29V21.75Z" fill="#686868"/>
-							</svg> -->
-			    	</div>
-	    			<div class="swiper-button-next">
-	    				<!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42 42" fill="none">
-							  <circle cx="21" cy="21" r="20.25" stroke="#686868" stroke-width="1.5"/>
-							  <path d="M29.5303 21.5303C29.8232 21.2374 29.8232 20.7626 29.5303 20.4697L24.7574 15.6967C24.4645 15.4038 23.9896 15.4038 23.6967 15.6967C23.4038 15.9896 23.4038 16.4645 23.6967 16.7574L27.9393 21L23.6967 25.2426C23.4038 25.5355 23.4038 26.0104 23.6967 26.3033C23.9896 26.5962 24.4645 26.5962 24.7574 26.3033L29.5303 21.5303ZM13 21.75H29V20.25H13V21.75Z" fill="#686868"/>
-							</svg> -->
-	    			</div>
-			    </div>
-			    <!-- <div class="swiper-pagination"></div> -->
-			  </div>
- 			</div>
-  	</section>
+
+  			</div>
+		    <button type="button" class="btn-default btn" name="button-1706072779794" access="false" style="default" id="button-1706072779794">ОТПРАВИТЬ</button>
+  		</form>
+  	</div>
+  </footer>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="js/dd.min.js"></script>
+<script src="js/fslightbox.js"></script>
 <script src="js/index.js"></script>
+
+<script>
+	document.querySelector("#projects-item-1").addEventListener("click", () => {
+		fsLightboxInstances["gallery-1"].open(0);
+	})
+	document.querySelector("#projects-item-2").addEventListener("click", () => {
+		fsLightboxInstances["gallery-2"].open(0);
+	})
+	document.querySelector("#projects-item-3").addEventListener("click", () => {
+		fsLightboxInstances["gallery-3"].open(0);
+	})
+	document.querySelector("#projects-item-4").addEventListener("click", () => {
+		fsLightboxInstances["gallery-4"].open(0);
+	})
+	document.querySelector("#projects-item-5").addEventListener("click", () => {
+		fsLightboxInstances["gallery-5"].open(0);
+	})
+	document.querySelector("#projects-item-6").addEventListener("click", () => {
+		fsLightboxInstances["gallery-6"].open(0);
+	})
+</script>
 </body>
 </html>
+
